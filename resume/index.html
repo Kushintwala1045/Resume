@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <title>Kush Intwala</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+      </head>
+    <body style="background-color:black;">
+      
+      <div class="navbar">
+        <p class="click-1">Portfolio</p>
+        <a href="#e"class="click" >Experience</a>
+        <a href="#a"class="click" >About</a>
+        <a href="#ed"class="click" >Education</a>
+        <a href="#s"class="click" style="padding-right: 100px;">Skills</a>
+        
+   </div>
+              <div class="container">
+                      <!-- Slider main container -->
+                      <div class="swiper">
+                          <!-- Additional required wrapper -->
+                          <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="1.png"></div>
+                            <div class="swiper-slide"><img src="2.png"></div>
+                            <div class="swiper-slide"><img src="bg3.png"></div>
+                            ...
+                          </div>
+                          <!-- If we need pagination -->
+                          <div class="swiper-pagination"></div>
+                        
+                          <!-- If we need navigation buttons -->
+                          <div class="swiper-button-prev"></div>
+                          <div class="swiper-button-next"></div>
+                        
+                        </div>
+              </div>
+              <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+              const swiper = new Swiper('.swiper', {
+                      autoplay:{
+                        delay:3000,
+                        disableOnInteraction:false,
+                      },
+                      // Optional parameters
+                    
+                      loop: true,
+
+                      // If we need pagination
+                      pagination: {
+                        el: '.swiper-pagination',
+                        clickable:true,
+                      },
+
+                      // Navigation arrows
+                      navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                      },
+                    });
+            </script>    
+             <div class="abt" id="a">
+              <h1>About Me</h1>
+              <p style="font-size: 30px;">Hey.....Myself Kush Intwala I am currently studying in third year of diploma in 
+                computer engineering. I have  been currently doing my industrial training with Nibodh Educare. 
+                I have been a skillful leader in the projects groups.I have various hobbies such as playing various instruments
+                ,I like to travel various places which are peaceful and also adventurous , I like to do coding.I have done varoius presentation,i have 
+                participated in Smart India Hackthon,I like to explore various languages of computer. </p>
+          </div>
+          <div class="exp" id="e">
+            <h1>Experience</h1>
+            <p style="text-align: justify;">I am  a fresher. but i have done many projects in my college. i have also participated in many competition and my latest is 
+                Smart India Hackthonand we are short listed.I have made frontend of an e commmerce website.
+            </p>
+            <p class="pro">
+              My Projects:-<br><br>
+              <a href="WPD/index.html" class="btn-2" style="background-color: #00BFFF;">See my Frontend Website</i></a>
+            </p> 
+        </div>
+        <div class="ski" id="s">
+          <h1>Skills</h1>
+          <div class="container">
+            <div class="col">
+              <h2 class="titulo">Languages</h2>
+              <ul class="skill">
+                <li><span class="blueline html"></span><em>HTML</em></li>
+                <li><span class="blueline css"></span><em>CSS</em></li>
+                <li><span class="blueline php"></span><em>PHP</em></li>
+                <li><span class="blueline javascript"></span><em>Javascript</em></li> 
+                <li><span class="blueline jquery"></span><em>jQuery</em></li>
+                <li><span class="blueline react"></span><em>react</em></li>
+              </ul>
+            </div>
+           </div>
+        </div>
+        <div class="edu" id="ed">
+          <h1>Education</h1>
+          <ul style="font-size: 30px; ">
+            <li>SCHOOL:-</li>
+            <li> From :  Our Lady of Remedy High School</li>
+            <li> Year : 2019-2020</li>
+            <li>Percentage : 90.61%</li>  
+          </ul>
+          <ul style="font-size: 30px; ">
+            <li>Studying at :-</li>
+            <li>From :  Thakur Polytechnic </li>
+            <li>First Semester Percentage : 90.71%</li>
+            <li>Second Semester Percentage : 90.63%</li>
+            <li>Third Semester Percentage : 92.61%</li>
+          </ul>
+          </div>
+          <br>
+            <div>
+            <footer style="background-color: white; padding: 40px;text-align: center;border-style: solid;border-color: #00BFFF;border-width: 5px;">
+              <i class="fa fa-home" style="color: black;font-size: 20px;"></i>
+              <p style="display:inline-block;color: black;">A/301, Avantika Shriwardhan, Dattapada, Borivali(East).</p><br>
+              <p><i class="fa fa-phone-square" style="color: black;font-size: 20px;"></i>
+              <a style="display:inline-block;text-decoration: none;color: black;" href="#">8652220011.</a><br></p>
+              <p><i class="fa fa-envelope-o" style="color: black;font-size: 20px;"></i>
+              <a style="display:inline-block;text-decoration: none;color: black;" href="#">kushintwala05@gmail.com</a><br></p>
+              
+              <div class="ico">
+              <a href="#"><i class="fa fa-linkedin" style="color: black;font-size: 20px;"></i></a>
+              <a href="https://www.facebook.com/Kush Intwala/"><i class="fa fa-facebook-square" style="color: black;font-size: 20px;"></i></a>
+              <a href="https://www.instagram.com/_kush_intwala_/"><i class="fa fa-instagram"style="color: black;font-size: 20px;"></i></a><br>
+            </div>
+              <p>
+                <a href="Resume.pdf" class="btn" style="background-color: #00BFFF;">Download Resume <i class="fa fa-download" style="color:black"></i></a>
+                
+              </p> 
+            </footer>
+            </div>
+            </body>   
+      
+</html>
